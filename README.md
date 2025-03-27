@@ -1,6 +1,5 @@
 # Inbox Zen - Email Assistant
-
-![Inbox Zen Logo](https://inbox-zen.com/assets/logo.png)
+Website: [https://inbox-zen.com](https://inbox-zen.com)
 
 ## Overview
 
