@@ -17,11 +17,10 @@ Inbox Zen is an intelligent email management platform that helps you regain cont
 ## Repository Structure
 
 ```
-email_assistant/
+inbox-zen/
 ├── .env                     # Environment variables (add your own values)
 ├── .gitignore               # Git ignore file
 ├── README.md                # This document
-├── README_INTERNAL.md       # Internal documentation
 ├── database_migration.sql   # SQL migrations for database setup
 ├── pytest.ini               # Pytest configuration
 ├── requirements.txt         # Project dependencies
