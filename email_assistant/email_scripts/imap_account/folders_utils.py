@@ -233,27 +233,3 @@ def revert_folders_gmail(email_infos):
                 move_email_to_folder(mailbox, folder, "inbox", email_ids)
             mailbox.delete(folder)
     mailbox.logout()
-
-
-if __name__ == "__main__":
-    # example to get esp_msg_id for gmail smtp
-    imap_server = "imap.gmail.com"
-    imap_login = "p.homeimagine@gmail.com"
-    imap_password = "zwnldrtqnamlxqbs"
-
-    port = 993
-
-    mailbox = get_mailbox(imap_server, port, imap_login, imap_password)
-
-    folder_list_data = check_and_create_new_folders(mailbox)
-    mailbox.logout()
-
-    folder = get_imap_folder_from_name(folder_list_data, "inbox")
-    print(folder)
-
-    # folders = list_folders(imap_server, port, imap_login, imap_password)
-
-    # all_email_ids, subject_list, smtp_ids = list_emails_from_folder(
-    #    imap_server, port, imap_login, imap_password, folder, n_last=10
-    # )
-    # print(subject_list, smtp_ids)
